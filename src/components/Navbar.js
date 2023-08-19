@@ -4,6 +4,7 @@ import '../styles/Navbar.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { ToastContainer, toast } from 'react-toastify';
 import { logout } from '../actions/authActions';
+import { FaHouse } from 'react-icons/fa6';
 const Navbar = () => {
   const dispatch = useDispatch();
   const { isAuthenticated, user } = useSelector((state) => state.auth);
@@ -15,6 +16,7 @@ const Navbar = () => {
           <ul>
             <li>
               <Link to="/">Home</Link>
+              <FaHouse />
             </li>
           </ul>
         </div>

@@ -1,7 +1,12 @@
 import React from 'react';
 import '../styles/CheckDetails.css'; // Make sure to create the CSS file for styling
 import { useSelector } from 'react-redux';
-
+import {
+  FaRankingStar,
+  FaArrowUpFromGroundWater,
+  FaCannabis,
+  FaGlobe,
+} from 'react-icons/fa6';
 export const CheckDetails = () => {
   const { isAuthenticated, user } = useSelector((state) => state.auth);
   return (
@@ -9,6 +14,7 @@ export const CheckDetails = () => {
       {isAuthenticated ? (
         <div className="section">
           <h2>Primium Services</h2>
+          <FaRankingStar />
           <p>
             Curabitur vel justo nec elit ultrices interdum. Fusce nec urna quis
             libero finibus tristique. Lorem ipsum dolor sit amet, consectetur
@@ -30,6 +36,7 @@ export const CheckDetails = () => {
       )}
       <div className="section">
         <h2>Services</h2>
+        <FaArrowUpFromGroundWater />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget
           libero vitae mauris maximus tempus. Lorem ipsum dolor sit amet,
@@ -48,6 +55,7 @@ export const CheckDetails = () => {
       </div>
       <div className="section">
         <h2>Applications</h2>
+        <FaCannabis />
         <p>
           Proin vulputate justo eget velit vehicula, nec maximus orci
           tincidunt.' Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -66,6 +74,7 @@ export const CheckDetails = () => {
       </div>
       <div className="section">
         <h2>Global Services</h2>
+        <FaGlobe />
         <p>
           Curabitur vel justo nec elit ultrices interdum. Fusce nec urna quis
           libero finibus tristique. Lorem ipsum dolor sit amet, consectetur

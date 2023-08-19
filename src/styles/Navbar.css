@@ -5,6 +5,16 @@ nav.NavContainer {
   box-shadow: 0px 0px 2px #000000;
   padding: 10px 0;
 }
+nav.NavContainer div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav.NavContainer div:first-child svg {
+  margin-left: 5px;
+  font-size: large;
+  color: blue;
+}
 nav.NavContainer div:last-child {
   margin-left: auto;
   display: flex;
