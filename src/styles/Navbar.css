@@ -98,3 +98,8 @@ li a:hover {
     border-radius: 0px;
   }
 }
+
+li a:hover {
+  transition: all 0.45s;
+  color: blue;
+}
