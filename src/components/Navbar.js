@@ -7,7 +7,7 @@ import { logout } from '../actions/authActions';
 
 const Navbar = () => {
   const dispatch = useDispatch();
-  const { isAuthenticated, user } = useSelector((state) => state.auth);
+  const { isAuthenticated } = useSelector((state) => state.auth);
   const navigate = useNavigate();
   return (
     <>

@@ -11,7 +11,7 @@ const CardComponent = ({ onAddToDeals, onCheckDetails }) => {
         <div className={styles.topsection}>
           <p>1 Feb 2023</p>
           <p>
-            <strong>RFQID</strong> <span>01098098</span>
+            <strong>RFQ ID</strong> <span>01098098</span>
           </p>
           <button className={styles.verifiedbutton}>
             <FaRegCheckCircle /> Verified

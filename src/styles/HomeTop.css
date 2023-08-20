@@ -116,7 +116,7 @@
   justify-content: center;
   color: #007bff;
   height: 40px;
-  border: 1px solid #066ddc;
+  border: 1px solid #007bff;
   width: auto;
   /* border: 1px solid red; */
   margin-left: auto;
@@ -158,7 +158,7 @@
   font-size: large;
 }
 .left-section svg {
-  margin-right: 2%;
+  margin-right: 4%;
   color: #0056b3;
   cursor: pointer;
 }
@@ -175,11 +175,12 @@
   /* background-color: red; */
 }
 .left-section button {
-  margin-left: 2%;
+  margin-left: 6%;
   letter-spacing: 1.2px;
   word-spacing: 1.2px;
   cursor: pointer;
   padding: 15px;
+  font-size: 14px;
   border-radius: 10px;
 }
 .left-section div {
@@ -206,5 +207,5 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #007bff;
 }

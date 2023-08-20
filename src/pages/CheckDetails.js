@@ -8,7 +8,7 @@ import {
   FaGlobe,
 } from 'react-icons/fa6';
 export const CheckDetails = () => {
-  const { isAuthenticated, user } = useSelector((state) => state.auth);
+  const { isAuthenticated } = useSelector((state) => state.auth);
   return (
     <div className="check-details-container">
       {isAuthenticated ? (

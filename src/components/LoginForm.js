@@ -17,7 +17,7 @@ const LoginForm = () => {
   const [validaeUserCheck, setvalidaeUserCheck] = useState(true);
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  const { user, users, isAuthenticated } = useSelector((state) => state.auth);
+  const { users } = useSelector((state) => state.auth);
   console.log(users);
 
   const handleSubmit = (e) => {

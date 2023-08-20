@@ -27,7 +27,7 @@ nav.NavContainer div:first-child {
 nav.NavContainer div:first-child svg {
   margin-left: 5px;
   font-size: large;
-  color: blue;
+  color: #007bff;
 }
 nav.NavContainer div:last-child {
   margin-left: auto;
@@ -101,5 +101,5 @@ li a:hover {
 
 li a:hover {
   transition: all 0.45s;
-  color: blue;
+  color: #007bff;
 }

@@ -8,7 +8,15 @@
 
   /* border: 1px solid #ccc; */
   border-radius: 8px;
-  box-shadow: -2px 2px 4px 1px #0000003a, 0px -2px 4px 1px #0000003a;
+  box-shadow: -2px 2px 2px 0px #0000003a, 0px -2px 2px 0px #0000003a;
+  margin-bottom: 25px !important;
+  transition: all 0.6s;
+  transform: scale(1);
+}
+.card:hover {
+  cursor: pointer;
+  box-shadow: -2px 2px 3px 1px #0000003a, 0px -2px 4px 1px #0000003a;
+  transform: scale(0.999);
 }
 
 .leftsection {
@@ -50,8 +58,8 @@
 }
 .rightsection .rightbottom button {
   margin: 10px auto;
-  padding: 20px 35px !important;
-  border-radius: 23px;
+  padding: 15px 35px !important;
+  border-radius: 13px;
   font-size: large;
   width: 200px;
 }
@@ -80,7 +88,7 @@
   align-items: center;
   justify-content: space-between;
   /* border: 1px solid red; */
-  margin-bottom: -10px;
+  margin-bottom: -7px;
 }
 .dealinfo a {
   text-decoration: none;
@@ -89,6 +97,7 @@
   justify-content: center;
   word-spacing: 1.3px;
   font-size: large;
+  color: #007bff;
 }
 
 .dealstatus {
@@ -101,7 +110,7 @@
   /* align-items: center; */
   display: flex;
   align-items: center;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .fullwidthheading {
@@ -136,7 +145,7 @@
 }
 
 .livebutton {
-  background-color: blue;
+  background-color: #007bff;
   color: white;
   border: none;
   margin-left: 10px;
@@ -148,7 +157,7 @@
 }
 
 .productbutton {
-  background-color: rgba(0, 145, 255, 0.335);
+  background-color: #007bff1d;
   border: none;
   padding: 5px 10px;
   color: black;
@@ -158,7 +167,7 @@
 }
 
 .bluebutton {
-  background-color: blue;
+  background-color: #007bff;
   color: white;
   border: none;
   width: 100%;
@@ -168,8 +177,8 @@
 
 .whitebutton {
   background-color: #fff;
-  color: blue;
-  border: 1px solid blue;
+  color: #007bff;
+  border: 1px solid #007bff;
   width: 100%;
   padding: 5px 10px;
   cursor: pointer;
