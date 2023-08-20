@@ -2,6 +2,11 @@
 const initialState = {
   isAuthenticated: false,
   user: {},
+  users: [
+    { username: 'user1', password: 'password1' },
+    { username: 'user2', password: 'password2' },
+    // Add more users as needed
+  ],
 };
 
 const authReducer = (state = initialState, action) => {
@@ -11,7 +16,6 @@ const authReducer = (state = initialState, action) => {
       return {
         ...state,
         isAuthenticated: true,
-        user: { ...action.payload },
       };
     case 'LOGOUT':
       return {
